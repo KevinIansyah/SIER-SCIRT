@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIER-CSIRT</title>
+
+    <!-- icon:tab -->
+    <link rel="shortcut icon" href="assets/images/logo.png" />
+    <!-- endinject -->
+
+    <!-- inject: cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- inject: css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="sticky-top navbar navbar-expand-lg py-3" data-bs-theme="light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img class="nav-logo" src="assets/images/logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item px-lg-3 py-2 py-lg-0 d-flex align-items-center">
+              <a class="nav-link nav-link-2" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item dropdown px-lg-3 py-2 py-lg-0 d-flex align-items-center">
+              <a class="nav-link nav-link-2 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                FRC
+              </a>
+              <ul class="dropdown-menu" style="position: absolute">
+                <li><a class="dropdown-item" href="rfc/rfc.html">RFC</a></li>
+                <li>
+                  <a class="dropdown-item" href="rfc/rfc2350.html">RFC 2350 Bahaasa Indonesia</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="rfc/publickey.html">Public Key SIER CSIRT</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item px-lg-3 py-2 py-lg-0 d-flex align-items-center">
+              <a class="nav-link nav-link-2" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item ps-lg-4 py-2 py-lg-0">
+              <a href="contact.html" class="button">Hubungi Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container">
+        <div class="container-margin-top faq-container d-flex flex-column flex-lg-row justify-content-between align-items-center gap-5">
+          <div class="faq-image d-flex justify-content-center justify-content-lg-end">
+            <img src="assets/images/faq.png" alt="" />
+          </div>
+
+          <div class="w-100">
+            <h2 class="text-center text-lg-start mb-0">SERING DITANYAKAN</h2>
+            <p class="text-center text-lg-start p-sub">Dapatkan Informasi Seputar SIER CSIRT Melalui FAQ di Bawah</p>
+            <div class="accordion accordion-flush shadow w-100" id="accordionFlushExample">
+              <div class="accordion-item rounded">
+                <h2 class="accordion-header rounded">
+                  <button
+                    class="accordion-button collapsed rounded p-3 p-lg-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    <h6 class="m-0">Apa yang dimaksud dengan CSIRT?</h6>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body p-3 p-lg-4">
+                    CSIRT singkatan dari Computer Security Incident Response
+                    Team. Ini adalah tim yang bertanggung jawab untuk menangani
+                    insiden keamanan komputer dalam sebuah organisasi.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordian-donasi accordion-item rounded">
+                <h2 class="accordion-header rounded">
+                  <button
+                    class="accordion-button collapsed rounded p-3 p-lg-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSecond"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSecond"
+                  >
+                    <h6 class="m-0">Apa peran utama CSIRT?</h6>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSecond"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body p-3 p-lg-4">
+                    Peran utama CSIRT adalah merespons dan menangani insiden
+                    keamanan komputer, memberikan analisis keamanan, memberikan
+                    rekomendasi keamanan, serta meningkatkan kesadaran keamanan
+                    dalam organisasi.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordian-donasi accordion-item rounded">
+                <h2 class="accordion-header rounded">
+                  <button
+                    class="accordion-button collapsed rounded p-3 p-lg-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    <h6 class="m-0">
+                      Apakah CSIRT hanya menangani insiden keamanan yang terjadi
+                      secara internal?
+                    </h6>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body p-3 p-lg-4">
+                    Peran utama CSIRT adalah merespons dan menangani insiden
+                    keamanan komputer, memberikan analisis keamanan, memberikan
+                    rekomendasi keamanan, serta meningkatkan kesadaran keamanan
+                    dalam organisasi.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordian-donasi accordion-item rounded">
+                <h2 class="accordion-header rounded">
+                  <button
+                    class="accordion-button collapsed rounded p-3 p-lg-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFour"
+                  >
+                    <h6 class="m-0">
+                      Apakah CSIRT hanya menangani insiden keamanan yang terjadi
+                      secara internal?
+                    </h6>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFour"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body p-3 p-lg-4">
+                    Tidak, CSIRT juga dapat membantu dalam menangani insiden
+                    keamanan yang melibatkan pihak eksternal seperti pelanggan,
+                    vendor, atau mitra bisnis.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordian-donasi accordion-item rounded">
+                <h2 class="accordion-header rounded">
+                  <button
+                    class="accordion-button collapsed rounded p-3 p-lg-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFive"
+                  >
+                    <h6 class="m-0">
+                      Bagaimana cara mendapatkan bantuan darurat dari CSIRT?
+                    </h6>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFive"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body p-3 p-lg-4">
+                    Untuk mendapatkan bantuan darurat dari CSIRT, Anda dapat
+                    menghubungi email kontak yang terdapat pada menu
+                    <strong>Hubungi Kami</strong>.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordian-donasi accordion-item rounded">
+                <h2 class="accordion-header rounded">
+                  <button
+                    class="accordion-button collapsed rounded p-3 p-lg-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSix"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSix"
+                  >
+                    <h6 class="m-0">Apa peran utama CSIRT?</h6>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSix"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body p-3 p-lg-4">
+                    eran utama CSIRT adalah merespons dan menangani insiden
+                    keamanan komputer, memberikan analisis keamanan, memberikan
+                    rekomendasi keamanan, serta meningkatkan kesadaran keamanan
+                    dalam organisasi.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="container-margin-top p-4">
+      <div class="container d-flex justify-content-center align-items-center">
+        <p class="text-white text-center mb-0">
+          Copyright©2024 | PT Surabaya Industrial Estate Rungkut | SIER-CSIRT
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"  integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="assets/js/navbar-2.js"></script>
+  </body>
+</html>
