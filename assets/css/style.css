@@ -72,6 +72,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: white;
+  scroll-behavior: smooth;
 }
 
 main {
@@ -342,6 +343,8 @@ h2 {
   text-align: center;
   font-size: 18px;
   background: #fff;
+  border-radius: 2rem;
+  background-color: transparent;
 }
 
 .swiper-pagination-bullet {
@@ -598,6 +601,10 @@ footer p {
 
 /* maps */
 
+.map-box {
+  background-color: white;
+}
+
 .maps {
   width: 500px;
   height: 300px;
@@ -605,6 +612,7 @@ footer p {
 
 .pdf-box {
   width: 75%;
+  background-color: white;
 }
 
 .pdf {
@@ -780,12 +788,6 @@ footer p {
     position: relative;
   }
 
-  .bubble-5 {
-    left: 50%;
-    transform: translateX(-50%);
-    top: -40px;
-  }
-
   .bubble-6 {
     display: none;
   }
@@ -844,12 +846,12 @@ footer p {
 
 .bubble-1 {
   left: 20px;
-  top: 0;
+  top: 50px;
 }
 
 .bubble-2 {
   right: 20px;
-  top: 0;
+  bottom: -50px;
 }
 
 .bubble-3 {
@@ -859,15 +861,35 @@ footer p {
 
 .bubble-4 {
   right: 180px;
-  top: 0;
+  bottom: -50px;
 }
 
 .bubble-5 {
-  left: 0;
-  top: -50px;
+  left: -50px;
+  top: -55px;
 }
 
 .bubble-6 {
   left: 500px;
   bottom: 0;
+}
+
+.bubble-7 {
+  left: 0px;
+  top: -40px;
+}
+
+.bubble-8 {
+  top: 0;
+  right: 0;
+}
+
+.bubble-9 {
+  left: 30px;
+  top: 50px;
+}
+
+.bubble-10 {
+  right: 30px;
+  top: 50px;
 }
