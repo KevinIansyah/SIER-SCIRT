@@ -229,6 +229,7 @@ button:focus:not(:focus-visible) {
 
 .dropdown-item {
   color: white;
+  padding: 0.8rem 1rem;
 }
 
 .dropdown-item:hover {
